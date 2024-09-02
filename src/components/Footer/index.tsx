@@ -5,12 +5,12 @@ import Gmail from '../icons/Gmail'
 
 export default function Footer() {
   return (
-    <footer className="flex gap-6 items-center h-7">
+    <footer className="flex gap-6 items-center justify-center lg:justify-normal">
       <a
         href="https://github.com/CaiqueSobral"
         target="_blank"
         rel="noreferrer"
-        className="h-6 w-6 hover:h-7 hover:w-7 transition-all"
+        className="h-6 w-6 hover:scale-125 transition-all"
       >
         <Github fill="#1C4473" stroke="#1C4473" />
       </a>
@@ -18,7 +18,7 @@ export default function Footer() {
         href="https://linkedin.com/in/caique-sobral/"
         target="_blank"
         rel="noreferrer"
-        className="h-6 w-6 hover:h-7 hover:w-7 transition-all"
+        className="h-6 w-6 hover:scale-125 transition-all"
       >
         <Linkedin fill="#1C4473" />
       </a>
@@ -26,7 +26,7 @@ export default function Footer() {
         href="mailto:caiquelsobral@gmail.com@gmail.com.br"
         target="_blank"
         rel="noreferrer"
-        className="h-6 w-6 hover:h-7 hover:w-7 transition-all"
+        className="h-6 w-6 hover:scale-125 transition-all"
       >
         <Gmail fill="#FAF9F6" stroke="#1C4473" />
       </a>

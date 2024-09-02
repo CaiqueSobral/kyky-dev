@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 
 export default function Standard() {
   return (
-    <main className="flex flex-col w-screen h-screen bg-offWhite p-16">
+    <main className="flex flex-col w-screen h-screen bg-offWhite p-8 xsm:p-12 sm:p-16">
       <Header />
       <Main />
       <Footer />

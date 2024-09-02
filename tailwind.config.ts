@@ -9,6 +9,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      maxHeight: {
+        available: '-webkit-fill-available',
+      },
       screens: {
         xsm: '350px',
       },

@@ -1,6 +1,6 @@
 import Github from '@/components/icons/Github'
-import Linkedin from '@/components/icons/Linkedin'
 import Instagram from '@/components/icons/Instagram'
+import Linkedin from '@/components/icons/Linkedin'
 import Gmail from '../icons/Gmail'
 
 export default function Footer() {

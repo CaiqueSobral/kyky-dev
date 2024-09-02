@@ -1,6 +1,6 @@
-import Navigation from './components/Navigation'
 import Aside from './components/Aside'
 import Content from './components/Content'
+import Navigation from './components/Navigation'
 
 export default function Main() {
   return (

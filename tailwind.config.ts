@@ -9,7 +9,7 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      maxHeight: {
+      minHeight: {
         available: '-webkit-fill-available',
       },
       screens: {

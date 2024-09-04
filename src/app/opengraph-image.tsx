@@ -12,7 +12,7 @@ export const contentType = 'image/png'
 
 export default async function Image() {
   const sourceCode = fetch(
-    new URL('./Source_Code_Pro.ttf', import.meta.url),
+    'https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap',
   ).then((res) => res.arrayBuffer())
 
   return new ImageResponse(

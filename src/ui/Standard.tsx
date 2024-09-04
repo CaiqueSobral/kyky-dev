@@ -1,5 +1,5 @@
 import Main from '@/components/Content/Index'
-import Footer from '@/components/Footer'
+import Footer from '@/components/Footer/Index'
 import Header from '@/components/Header/Index'
 
 export default function Standard() {

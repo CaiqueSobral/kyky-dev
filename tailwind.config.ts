@@ -25,6 +25,7 @@ const config: Config = {
       },
       textColor: {
         primary: '#1C4473',
+        offWhite: '#FAF9F6',
       },
     },
   },

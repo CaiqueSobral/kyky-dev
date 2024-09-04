@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 export const nextMetaData: Metadata = {
   title: 'Kyky.dev',
-  applicationName: 'Kyky dev',
+  metadataBase: new URL('https://kyky.dev'),
   referrer: 'origin-when-cross-origin',
   keywords: ['software engineer', 'Kyky', 'kyky dev', 'frontend engineer'],
   description: "I'm a software engineer, and this is my website",
@@ -10,18 +10,18 @@ export const nextMetaData: Metadata = {
   creator: 'Caique Sobral (Kyky)',
   openGraph: {
     type: 'website',
-    url: 'kyky.dev',
-    siteName: 'Kyky dev',
+    url: 'https://kyky.dev',
+    siteName: 'Kyky dev - Software Engineer',
     title: "Hi, I'm Kyky.",
     description: "I'm a software engineer, and this is my website",
-    images: [{ url: 'https://kyky.dev/images/Standard.png' }],
+    images: ['https://github.com/caiquesobral.png'],
     locale: 'en_US',
   },
   twitter: {
     title: 'Kyky dev',
     description: "I'm a software engineer, and this is my website",
     creator: '@KykyLS',
-    images: ['https://kyky.dev/images/Standard.png'],
+    images: ['https://github.com/caiquesobral.png'],
   },
   robots: {
     index: false,

@@ -10,11 +10,11 @@ export const nextMetaData: Metadata = {
   creator: 'Caique Sobral (Kyky)',
   openGraph: {
     type: 'website',
-    url: 'https://kyky.dev/',
+    url: 'kyky.dev',
     siteName: 'Kyky dev',
     title: "Hi, I'm Kyky.",
     description: "I'm a software engineer, and this is my website",
-    images: ['https://kyky.dev/images/Standard.png'],
+    images: [{ url: 'https://kyky.dev/images/Standard.png' }],
     locale: 'en_US',
   },
   twitter: {

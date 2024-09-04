@@ -11,8 +11,8 @@ export const size = {
 export const contentType = 'image/png'
 
 export default async function Image() {
-  const interSemiBold = fetch(
-    new URL('./Source_Code_Pro-SemiBold.ttf', import.meta.url),
+  const sourceCode = fetch(
+    new URL('./Source_Code_Pro.ttf', import.meta.url),
   ).then((res) => res.arrayBuffer())
 
   return new ImageResponse(
@@ -33,8 +33,8 @@ export default async function Image() {
       ...size,
       fonts: [
         {
-          name: 'Inter',
-          data: await interSemiBold,
+          name: 'Source Code Pro',
+          data: await sourceCode,
           style: 'normal',
           weight: 400,
         },

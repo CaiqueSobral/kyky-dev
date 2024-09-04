@@ -1,8 +1,8 @@
 import { Analytics } from '@vercel/analytics/react'
 import { Source_Code_Pro } from 'next/font/google'
 import './globals.css'
-import { nextViewport } from '@/meta/viewport'
 import { nextMetaData } from '@/meta/metaData'
+import { nextViewport } from '@/meta/viewport'
 
 const font = Source_Code_Pro({ subsets: ['latin'] })
 

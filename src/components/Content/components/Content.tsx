@@ -2,23 +2,23 @@ import UrlIcon from '@/components/icons/UrlIcon'
 
 export default function Content() {
   return (
-    <div className="flex-1 flex flex-col">
+    <div className="flex flex-1 flex-col">
       <div className="flex flex-col gap-4">
-        <h1 className="text-2xl md:text-3xl font-semibold text-primary text-center">
+        <h1 className="text-center font-semibold text-2xl text-primary md:text-3xl">
           Hello, I'm Kyky
         </h1>
-        <div className="text-center text-sm text-[#161616] md:text-base">
+        <div className="text-center text-[#161616] text-sm md:text-base">
           <p>I'm a software engineer</p>
           <p>And this is my cliche website</p>
         </div>
         <div className="self-center">
           <a
             href="/files/Kyky-Resume.pdf"
-            className="py-1 px-6 bg-primary-normal transition-all rounded-full items-center inline-flex gap-4 hover:bg-primary-dark hover:scale-105"
+            className="inline-flex items-center gap-4 rounded-full bg-primary-normal px-6 py-1 transition-all hover:scale-105 hover:bg-primary-dark"
             target="_blank"
             rel="noreferrer"
           >
-            <span className="text-sm md:text-base text-[#FAF9F6]">
+            <span className="text-[#FAF9F6] text-sm md:text-base">
               My Resume
             </span>
             <UrlIcon height={12} width={12} className="inline" fill="#FAF9F6" />

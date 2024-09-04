@@ -17,14 +17,20 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta property="og:title" content="Kyky.dev" />
+        <meta property="og:site_name" content="Kyky.dev" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="/public/images/Standard.png" />
-        <meta property="og:url" content="https://kyky.dev" />
+        <meta property="og:title" content="Hi, I'm Kyky" />
         <meta
           property="og:description"
-          content="Hi, I'm Kyky, A Software engineer"
+          content="I'm a software engineer, and this is my website"
         />
+        <meta
+          property="og:image"
+          content="https://kyky.dev/images/Standard.png"
+        />
+        <meta property="og:image:width" content="640" />
+        <meta property="og:image:height" content="640" />
+        <meta property="og:url" content="https://kyky.dev" />
       </head>
       <body className={`${font.className}`}>
         {children}

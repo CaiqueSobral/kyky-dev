@@ -18,7 +18,7 @@ export const nextMetaData: Metadata = {
     locale: 'en_US',
   },
   twitter: {
-    title: 'Kyky dev',
+    title: "Hi, I'm Kyky.",
     description: "I'm a software engineer, and this is my website",
     creator: '@KykyLS',
     images: ['https://github.com/caiquesobral.png'],

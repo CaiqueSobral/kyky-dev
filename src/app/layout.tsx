@@ -16,6 +16,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta property="og:title" content="Kyky.dev" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="/public/images/Standard.png" />
+        <meta property="og:url" content="https://kyky.dev" />
+        <meta
+          property="og:description"
+          content="Hi, I'm Kyky, A Software engineer"
+        />
+      </head>
       <body className={`${font.className}`}>
         {children}
         <Analytics />

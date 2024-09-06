@@ -10,6 +10,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        pop: ['Honk'],
+      },
       minHeight: {
         available: '-webkit-fill-available',
       },

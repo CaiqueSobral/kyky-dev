@@ -2,7 +2,7 @@ import UrlIcon from '@/components/icons/UrlIcon'
 
 export default function Content() {
   const classNameForDivs =
-    'pop:bg-black relative pop:font-black pop:rotate-1 pop:px-2 pop:py-1 pop:before:absolute pop:before:h-full pop:before:w-full pop:before:bg-accent-dark pop:before:-top-1 pop:before:-right-1 pop:before:-z-10'
+    'pop:bg-black relative pop:font-black pop:rotate-1 pop:px-2 pop:py-1 pop:before:absolute pop:before:h-full pop:before:w-full pop:before:bg-accent pop:before:-top-1 pop:before:-right-1 pop:before:-z-10'
 
   return (
     <div className="flex flex-1 flex-col">

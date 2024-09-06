@@ -11,7 +11,7 @@ export default function Footer() {
         rel="noreferrer"
         className="h-6 w-6 transition-all hover:scale-125"
       >
-        <Github fill="#1C4473" stroke="#1C4473" />
+        <Github className="pop:rounded-md pop:bg-black fill-accent pop:fill-accent stroke-accent pop:p-[2px]" />
       </a>
       <a
         href="https://linkedin.com/in/caique-sobral/"
@@ -19,7 +19,7 @@ export default function Footer() {
         rel="noreferrer"
         className="h-6 w-6 transition-all hover:scale-125"
       >
-        <Linkedin fill="#1C4473" />
+        <Linkedin className="pop:rounded-md pop:bg-black fill-accent pop:fill-accent pop:p-[2px]" />
       </a>
       <a
         href="mailto:caiquelsobral@gmail.com@gmail.com.br"
@@ -27,7 +27,7 @@ export default function Footer() {
         rel="noreferrer"
         className="h-6 w-6 transition-all hover:scale-125"
       >
-        <Gmail fill="#FAF9F6" stroke="#1C4473" />
+        <Gmail className="pop:rounded-md pop:bg-black fill-primary pop:fill-black stroke-accent pop:p-[2px]" />
       </a>
     </footer>
   )

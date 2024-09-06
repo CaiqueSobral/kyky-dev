@@ -4,7 +4,7 @@ import Header from '@/components/Header/Index'
 
 export default function Standard() {
   return (
-    <main className="mx-auto flex h-svh min-h-svh w-screen max-w-screen-2xl flex-col bg-offWhite p-8 xsm:p-12 sm:p-16">
+    <main className="mx-auto flex h-svh min-h-svh w-screen max-w-screen-2xl flex-col bg-primary pop:bg-pop pop:from-primary pop:to-white pop:bg-repeat p-6 sm:p-16">
       <Header />
       <Main />
       <Footer />

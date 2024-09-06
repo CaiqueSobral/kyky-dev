@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss'
+import plugin from 'tailwindcss/plugin'
 
 const config: Config = {
   content: [
@@ -15,20 +16,29 @@ const config: Config = {
       screens: {
         xsm: '350px',
       },
-      backgroundColor: {
-        offWhite: '#FAF9F6',
-        primary: {
-          light: '#49698f',
-          normal: '#1C4473',
-          dark: '#16365c',
-        },
+      backgroundImage: {
+        pop: "url('/svg/circle.svg')",
+        'pop-profile': "url('/svg/circleProfile.svg')",
+        'pop-button': "url('/svg/circleButton.svg')",
+        explosion: "url('/svg/explosion.svg')",
+        'pop-pic': "url('/images/standard.png')",
       },
-      textColor: {
-        primary: '#1C4473',
-        offWhite: '#FAF9F6',
+      colors: {
+        offWhite: '#faf9f6',
+        black: '#161616',
+        'accent-light': 'var(--accent-light)',
+        'accent-dark': 'var(--accent-dark)',
+        accent: 'var(--accent)',
+        primary: 'var(--primary)',
+        details: 'var(--details)',
       },
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(({ addVariant }) => {
+      addVariant('pop', '.pop &')
+      addVariant('std', '.standard &')
+    }),
+  ],
 }
 export default config

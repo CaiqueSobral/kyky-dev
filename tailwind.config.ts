@@ -21,7 +21,7 @@ const config: Config = {
         'pop-profile': "url('/svg/circleProfile.svg')",
         'pop-button': "url('/svg/circleButton.svg')",
         explosion: "url('/svg/explosion.svg')",
-        'pop-pic': "url('/images/standard.png')",
+        'pop-pic': "url('/images/Standard.png')",
       },
       colors: {
         offWhite: '#faf9f6',

@@ -3,16 +3,20 @@
 import { useEffect, useState } from 'react'
 import Down from '../icons/Down'
 
-type Styles = 'standard' | 'pop'
+const Styles = ['standard', 'pop']
 
 export default function CoolButton() {
-  const [style, setStyle] = useState<Styles>('standard')
-  const toggleStyle = () => {
-    setStyle((old) => (old === 'standard' ? 'pop' : 'standard'))
+  const [active, setActive] = useState(false)
+
+  const toggleactive = () => {
+    setActive((old) => !old)
   }
+
+  const [style, setStyle] = useState<(typeof Styles)[number]>('standard')
 
   useEffect(() => {
     document.body.className = style
+    setActive(false)
   }, [style])
 
   return (
@@ -20,11 +24,22 @@ export default function CoolButton() {
       <button
         type="button"
         className="inline-flex w-fit items-center justify-between gap-2 pop:rounded-none rounded-full border border-accent border-solid pop:border-none bg-primary pop:bg-black fill-accent px-4 py-1 pop:font-black text-accent hover:bg-accent pop:hover:bg-accent hover:fill-primary pop:hover:fill-black hover:text-primary pop:hover:text-black"
-        onClick={() => toggleStyle()}
+        onClick={() => toggleactive()}
       >
         <span className="text-xs">Styles</span>
         <Down height={12} width={12} />
       </button>
+      {active && (
+        <div className="absolute">
+          {Styles.map((style) => {
+            return (
+              <button type="button" key={style} onClick={() => setStyle(style)}>
+                <span>{style}</span>
+              </button>
+            )
+          })}
+        </div>
+      )}
     </div>
   )
 }

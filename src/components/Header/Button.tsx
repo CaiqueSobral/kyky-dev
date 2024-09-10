@@ -46,7 +46,7 @@ export default function CoolButton() {
         <div
           onMouseEnter={() => setNeeded(true)}
           onMouseLeave={() => setNeeded(false)}
-          className="pop:before:-z-10 absolute right-0 mt-1 pop:mt-2 flex flex-col std:rounded-lg bg-accent pop:bg-black py-2 pop:before:absolute pop:before:top-1 pop:before:right-1 pop:before:h-full pop:before:w-full pop:before:bg-accent"
+          className="pop:before:-z-10 absolute right-0 mt-1 pop:mt-2 flex flex-col std:rounded-lg bg-accent pop:bg-black std:bg-accent-dark py-2 pop:before:absolute pop:before:top-1 pop:before:right-1 pop:before:h-full pop:before:w-full pop:before:bg-accent"
         >
           {Styles.map((style) => {
             return (
@@ -54,7 +54,7 @@ export default function CoolButton() {
                 type="button"
                 key={style}
                 onClick={() => setStyle(style)}
-                className="flex items-center gap-2 bg-accent pop:bg-black pop:stroke-accent stroke-primary py-1 pr-4 pl-2 text-offWhite text-sm transition-all hover:bg-accent-light pop:hover:bg-accent pop:hover:stroke-black pop:hover:text-black"
+                className="flex items-center gap-2 pop:bg-black std:bg-accent-dark pop:stroke-accent stroke-primary py-1 pr-4 pl-2 text-offWhite text-sm transition-all pop:hover:bg-accent std:hover:bg-accent-light pop:hover:stroke-black pop:hover:text-black"
               >
                 <Option height={12} width={12} />
                 <span>

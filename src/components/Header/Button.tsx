@@ -54,7 +54,7 @@ export default function CoolButton() {
                 type="button"
                 key={style}
                 onClick={() => setStyle(style)}
-                className="flex items-center gap-2 pop:bg-black std:bg-accent-dark pop:stroke-accent stroke-primary py-1 pr-4 pl-2 text-offWhite text-sm transition-all pop:hover:bg-accent std:hover:bg-accent-light pop:hover:stroke-black pop:hover:text-black"
+                className="flex items-center gap-2 pop:bg-black std:bg-accent-dark pop:stroke-accent-light stroke-primary py-1 pr-4 pl-2 pop:font-medium pop:text-accent-light text-offWhite text-sm transition-all pop:hover:bg-accent std:hover:bg-accent-light pop:hover:stroke-black pop:hover:text-black"
               >
                 <Option height={12} width={12} />
                 <span>

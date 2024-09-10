@@ -1,4 +1,5 @@
 import { Analytics } from '@vercel/analytics/react'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 import { Source_Code_Pro } from 'next/font/google'
 import './globals.css'
 import { nextMetaData } from '@/meta/metaData'
@@ -27,6 +28,7 @@ export default function RootLayout({
       <body className="standard">
         {children}
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   )

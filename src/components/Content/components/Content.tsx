@@ -1,4 +1,5 @@
 import UrlIcon from '@/components/icons/UrlIcon'
+import TextBox from './minor components/TextBox'
 
 export default function Content() {
   const classNameForDivs =
@@ -11,12 +12,12 @@ export default function Content() {
           Hello, I'm Kyky
         </h1>
         <div className="flex flex-col items-center justify-center pop:gap-2 text-center text-details text-sm md:text-base">
-          <div className={classNameForDivs}>
+          <TextBox>
             <span>I'm a software engineer</span>
-          </div>
-          <div className={classNameForDivs}>
+          </TextBox>
+          <TextBox>
             <span>And this is my cliche website</span>
-          </div>
+          </TextBox>
         </div>
         <div className="pop:after:-z-10 pop:after:-bottom-1 pop:after:-left-1 relative z-10 self-center pop:after:absolute pop:after:h-full pop:after:w-full pop:after:bg-accent pop:hover:after:bg-black">
           <a

@@ -1,5 +1,5 @@
-import Standard from '@/ui/Standard'
+import UI from '@/ui/UI'
 
 export default function Home() {
-  return <Standard />
+  return <UI />
 }

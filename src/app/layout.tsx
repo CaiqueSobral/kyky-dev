@@ -4,6 +4,8 @@ import { Source_Code_Pro } from 'next/font/google'
 import './globals.css'
 import { nextMetaData } from '@/meta/metaData'
 import { nextViewport } from '@/meta/viewport'
+import Footer from '@/components/Footer/Index'
+import Header from '@/components/Header/Index'
 
 const font = Source_Code_Pro({ subsets: ['latin'] })
 
@@ -26,7 +28,13 @@ export default function RootLayout({
         />
       </head>
       <body className="standard">
-        {children}
+        <main className="h-svh min-h-svh w-screen bg-primary pop:bg-pop pop:bg-repeat">
+          <section className="relative z-10 mx-auto flex h-full w-full max-w-screen-2xl flex-col p-6 sm:p-16">
+            <Header />
+            {children}
+            <Footer />
+          </section>
+        </main>
         <Analytics />
         <SpeedInsights />
       </body>

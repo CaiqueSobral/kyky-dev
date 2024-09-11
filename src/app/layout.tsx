@@ -29,7 +29,7 @@ export default function RootLayout({
       </head>
       <body className="standard">
         <main className="h-svh min-h-svh w-screen bg-primary pop:bg-pop pop:bg-repeat">
-          <section className="relative z-10 mx-auto flex h-full w-full max-w-screen-2xl flex-col p-6 sm:p-16">
+          <section className="relative z-10 mx-auto flex h-full w-full max-w-screen-2xl flex-col p-6 sm:p-10 lg:p-16">
             <Header />
             {children}
             <Footer />

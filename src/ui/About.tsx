@@ -2,7 +2,7 @@ export default function AboutUi() {
   return (
     <section className="-z-10 relative flex flex-1 flex-col-reverse py-5 md:py-10 lg:flex-row">
       <div className="flex flex-1 items-start justify-center sm:items-center">
-        <div className="pop:before:-left-2 pop:before:-bottom-2 pop:before:-z-10 relative flex w-4/5 flex-col gap-2 pop:rounded-none rounded-2xl bg-accent-dark bg-black pop:bg-black px-4 py-3 pop:before:absolute pop:before:h-full pop:before:w-full pop:before:bg-accent md:w-3/4">
+        <div className="pop:before:-left-2 pop:before:-bottom-2 pop:before:-z-10 relative flex w-4/5 flex-col gap-2 pop:rounded-none rounded-2xl bg-accent-dark pop:bg-black px-4 py-3 pop:before:absolute pop:before:h-full pop:before:w-full pop:before:bg-accent md:w-3/4">
           <p className="text-center text-offWhite text-sm lg:text-base">
             Hi, I'm Kyky.
           </p>

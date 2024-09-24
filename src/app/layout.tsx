@@ -26,9 +26,13 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Honk:MORF@29&display=swap"
           rel="stylesheet"
         />
+        <link
+          href="https://fonts.cdnfonts.com/css/caecilia-lt-pro"
+          rel="stylesheet"
+        />
       </head>
-      <body className="standard">
-        <main className="h-svh min-h-svh w-screen bg-primary pop:bg-pop pop:bg-repeat">
+      <body className="kindle">
+        <main className="h-svh min-h-svh w-screen bg-primary pop:bg-pop pop:bg-repeat kindle:font-kindle">
           <section className="relative z-10 mx-auto flex h-full w-full max-w-screen-2xl flex-col p-6 sm:p-10 lg:p-16">
             <Header />
             {children}

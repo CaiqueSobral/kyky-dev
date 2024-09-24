@@ -5,7 +5,7 @@ import Down from '../icons/Down'
 import Option from '../icons/Option'
 import CoolButton from '../Custom/CoolButton'
 
-const Styles = ['standard', 'pop']
+const Styles = ['standard', 'pop', 'kindle']
 
 export default function StylesButton() {
   const [active, setActive] = useState(false)

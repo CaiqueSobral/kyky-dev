@@ -2,19 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-  @font-face {
-    font-family: "Honk";
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    src: url('https://fonts.googleapis.com/css2?family=Honk:MORF@29&display=swap');
-    font-variation-settings:
-      "MORF" 29,
-      "SHLN" 50;
-  }
-}
-
 @layer utilities{
   .clip-explosion {
        -webkit-clip-path: polygon(
@@ -49,4 +36,13 @@
   --primary: rgb(219, 42, 146);
   --details: rgb(250, 249, 246);
   --font-family: "Honk"
+}
+
+.kindle{
+  --accent: rgb(46, 46, 46);
+  --accent-light: rgb(46, 46, 46);
+  --accent-dark: rgb(46, 46, 46);
+  --primary: rgb(225, 225, 225);
+  --details: rgb(46, 46, 46);
+  --font-family: "Caecilia LT Pro"
 }

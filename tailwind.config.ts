@@ -12,6 +12,7 @@ const config: Config = {
     extend: {
       fontFamily: {
         pop: ['Honk'],
+        kindle: ['Caecilia LT Pro'],
       },
       minHeight: {
         available: '-webkit-fill-available',
@@ -25,6 +26,8 @@ const config: Config = {
         'pop-button': "url('/svg/circleButton.svg')",
         explosion: "url('/svg/explosion.svg')",
         'pop-pic': "url('/images/Standard.png')",
+        kindle: "url('/images/StandardBnW.png')",
+        standard: "url('/images/Standard.png')",
       },
       colors: {
         offWhite: '#faf9f6',
@@ -41,6 +44,7 @@ const config: Config = {
     plugin(({ addVariant }) => {
       addVariant('pop', '.pop &')
       addVariant('std', '.standard &')
+      addVariant('kindle', '.kindle &')
     }),
   ],
 }

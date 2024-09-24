@@ -38,14 +38,14 @@ export default function StylesButton() {
         onMouseLeave={() => setNeeded(false)}
         onClick={() => toggleactive()}
       >
-        <span className="text-xs">Styles</span>
+        <span className="kindle:mt-[2px] text-xs">Styles</span>
         <Down height={12} width={12} />
       </CoolButton>
       {active && (
         <div
           onMouseEnter={() => setNeeded(true)}
           onMouseLeave={() => setNeeded(false)}
-          className="pop:before:-z-10 absolute right-0 mt-1 pop:mt-2 flex flex-col std:rounded-lg bg-accent pop:bg-black std:bg-accent-dark py-2 pop:before:absolute pop:before:top-1 pop:before:right-1 pop:before:h-full pop:before:w-full pop:before:bg-accent"
+          className="pop:before:-z-10 absolute right-0 kindle:mt-2 mt-1 pop:mt-2 flex flex-col overflow-hidden kindle:rounded-md std:rounded-lg kindle:border kindle:border-accent bg-accent kindle:bg-primary pop:bg-black std:bg-accent-dark kindle:p-0 py-2 pop:before:absolute pop:before:top-1 pop:before:right-1 pop:before:h-full pop:before:w-full pop:before:bg-accent odd:bg-black"
         >
           {Styles.map((style) => {
             return (
@@ -53,7 +53,7 @@ export default function StylesButton() {
                 type="button"
                 key={style}
                 onClick={() => setStyle(style)}
-                className="flex items-center gap-2 pop:bg-black std:bg-accent-dark pop:stroke-accent-light stroke-primary py-1 pr-4 pl-2 pop:font-medium pop:text-accent-light text-offWhite text-sm transition-all pop:hover:bg-accent std:hover:bg-accent-light pop:hover:stroke-black pop:hover:text-black"
+                className="flex items-center gap-2 kindle:border-accent kindle:bg-primary pop:bg-black std:bg-accent-dark kindle:stroke-accent pop:stroke-accent-light stroke-primary py-1 pr-4 pl-2 pop:font-medium kindle:text-accent pop:text-accent-light text-offWhite text-sm transition-colors kindle:hover:bg-accent pop:hover:bg-accent std:hover:bg-accent-light kindle:hover:stroke-primary pop:hover:stroke-black kindle:hover:text-primary pop:hover:text-black kindle:[&:not(:last-child)]:border-b"
               >
                 <Option height={12} width={12} />
                 <span>

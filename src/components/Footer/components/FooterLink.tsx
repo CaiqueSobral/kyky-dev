@@ -8,7 +8,7 @@ export default function FooterLink({
     <a
       target="_blank"
       rel="noreferrer"
-      className="h-6 w-6 pop:rounded-md pop:bg-black pop:p-[2px] transition-transform hover:scale-125"
+      className="h-6 w-6 pop:rounded-md pop:bg-black pop:p-[2px] transition-transform hover:scale-125 kindle:hover:scale-100"
       {...props}
     >
       {children}

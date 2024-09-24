@@ -2,9 +2,6 @@ import UrlIcon from '@/components/icons/UrlIcon'
 import TextBox from './minor components/TextBox'
 
 export default function Content() {
-  const classNameForDivs =
-    'pop:bg-black relative pop:font-black pop:rotate-1 pop:px-2 pop:py-1 pop:before:absolute pop:before:h-full pop:before:w-full pop:before:bg-accent pop:before:-top-1 pop:before:-right-1 pop:before:-z-10'
-
   return (
     <div className="flex flex-1 flex-col">
       <div className="flex flex-col gap-4">
@@ -19,10 +16,10 @@ export default function Content() {
             <span>And this is my cliche website</span>
           </TextBox>
         </div>
-        <div className="pop:after:-z-10 pop:after:-bottom-1 pop:after:-left-1 relative z-10 self-center pop:after:absolute pop:after:h-full pop:after:w-full pop:after:bg-accent pop:hover:after:bg-black">
+        <div className="pop:after:-z-10 pop:after:-bottom-1 pop:after:-left-1 pop:relative pop:z-10 self-center pop:after:absolute pop:after:h-full pop:after:w-full pop:after:bg-accent pop:hover:after:bg-black">
           <a
             href="/Resume.pdf"
-            className="inline-flex items-center gap-4 pop:rounded-none rounded-full bg-accent pop:bg-black pop:stroke-accent stroke-primary px-6 py-1 pop:text-accent text-primary transition-transform hover:scale-105 pop:hover:scale-100 hover:bg-accent-dark pop:hover:bg-accent pop:hover:stroke-black pop:hover:text-black"
+            className="inline-flex items-center gap-4 pop:rounded-none rounded-full kindle:border kindle:border-accent bg-accent kindle:bg-primary pop:bg-black kindle:stroke-accent pop:stroke-accent stroke-primary px-6 py-1 kindle:text-accent pop:text-accent text-primary kindle:transition-colors transition-transform std:hover:scale-105 hover:bg-accent-dark kindle:hover:bg-accent pop:hover:bg-accent kindle:hover:stroke-primary pop:hover:stroke-black kindle:hover:text-primary pop:hover:text-black"
             target="_blank"
             rel="noreferrer"
           >

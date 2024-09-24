@@ -39,7 +39,7 @@ export default function MenuButton() {
         <div
           onMouseEnter={() => setNeeded(true)}
           onMouseLeave={() => setNeeded(false)}
-          className="pop:before:-z-10 absolute left-0 kindle:mt-2 mt-1 pop:mt-2 flex flex-col overflow-hidden kindle:rounded-md std:rounded-lg kindle:border kindle:border-accent bg-accent kindle:bg-transparent pop:bg-black std:bg-accent-dark kindle:p-0 py-2 pop:before:absolute pop:before:top-1 pop:before:right-1 pop:before:h-full pop:before:w-full pop:before:bg-accent"
+          className="pop:before:-z-10 absolute left-0 kindle:mt-2 mt-1 pop:mt-2 flex flex-col overflow-hidden kindle:rounded-md std:rounded-lg kindle:border kindle:border-accent bg-accent kindle:bg-primary pop:bg-black std:bg-accent-dark kindle:p-0 py-2 pop:before:absolute pop:before:top-1 pop:before:right-1 pop:before:h-full pop:before:w-full pop:before:bg-accent"
         >
           <Link
             href={'/'}

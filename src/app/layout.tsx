@@ -31,7 +31,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="kindle">
+      <body className="standard">
         <main className="h-svh min-h-svh w-screen bg-primary pop:bg-pop pop:bg-repeat kindle:font-kindle">
           <section className="relative z-10 mx-auto flex h-full w-full max-w-screen-2xl flex-col p-6 sm:p-10 lg:p-16">
             <Header />

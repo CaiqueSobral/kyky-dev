@@ -16,9 +16,8 @@ export default function AboutUi() {
             Morumbi.
           </p>
           <p className="text-inherit text-xs lg:text-sm">
-            I've been around for {new Date().getFullYear() - 2020} years, mostly
-            working as a full-stack developer, although I'm more into front-end
-            development.
+            I've been around for {new Date().getFullYear() - 2020}+ years,
+            mostly working as a full-stack developer.
           </p>
           <p className="text-inherit text-xs lg:text-sm">
             I'm always trying to learn new things and build stuff I enjoy, such
